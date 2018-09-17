@@ -52,7 +52,7 @@
     {
       "ID": "m2",
       "courseId": "c2",
-      "mark": 0,
+      "mark": -1,
       "studentId": "s2"
     },
     {
@@ -64,7 +64,7 @@
     {
       "ID": "m4",
       "courseId": "c2",
-      "mark": 0,
+      "mark": -1,
       "studentId": "s1"
     },
     {
@@ -76,7 +76,7 @@
     {
       "ID": "m6",
       "courseId": "c2",
-      "mark": 0,
+      "mark": -1,
       "studentId": "s4"
     },
     {
