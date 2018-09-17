@@ -1,0 +1,89 @@
+{
+  "students": [
+    {
+      "ID": "s1",
+      "firstName": "Johnny",
+      "lastName": "Bonbony",
+      "marks": ["m3", "m4"]
+    },
+    {
+      "ID": "s2",
+      "firstName": "Ron",
+      "lastName": "Don",
+      "marks": ["m1", "m2"]
+    },
+    {
+      "ID": "s3",
+      "firstName": "Jean",
+      "lastName": "De'Arc",
+      "marks": ["m7"]
+    },
+    {
+      "ID": "s4",
+      "firstName": "Keren",
+      "lastName": "Gafni",
+      "marks": ["m5", "m6"]
+    }
+  ],
+  "courses": [
+    {
+      "ID": "c1",
+      "name": "Infi",
+      "students": ["s1", "s4"]
+    },
+    {
+      "ID": "c2",
+      "name": "History",
+      "students": ["s1", "s2", "s4"]
+    },
+    {
+      "ID": "c3",
+      "name": "Biology",
+      "students": ["s2", "s3"]
+    }
+  ],
+  "marks": [
+    {
+      "ID": "m1",
+      "courseId": "c3",
+      "mark": 86,
+      "studentId": "s2"
+    },
+    {
+      "ID": "m2",
+      "courseId": "c2",
+      "mark": 0,
+      "studentId": "s2"
+    },
+    {
+      "ID": "m3",
+      "courseId": "c1",
+      "mark": 67,
+      "studentId": "s1"
+    },
+    {
+      "ID": "m4",
+      "courseId": "c2",
+      "mark": 0,
+      "studentId": "s1"
+    },
+    {
+      "ID": "m5",
+      "courseId": "c1",
+      "mark": 77,
+      "studentId": "s4"
+    },
+    {
+      "ID": "m6",
+      "courseId": "c2",
+      "mark": 0,
+      "studentId": "s4"
+    },
+    {
+      "ID": "m7",
+      "courseId": "c3",
+      "mark": 77,
+      "studentId": "s3"
+    }
+  ]
+}
